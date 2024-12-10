@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ml-uplift"
+version = "0.0.1"
+description = "Streamlit application."
+authors = ["101-r <ravshan.cau@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+openpyxl = "^3.1.5"
+azure-storage-blob = "^12.23.1"
+azure-identity = "^1.19.0"
+azure-functions = "^1.21.3"
+pandasql = "^0.7.3"
+joblib = "^1.4.2"
+xlsxwriter = "^3.2.0"
+xgboost = "^2.1.1"
+scikit-learn = "^1.5.2"
+lightgbm = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
