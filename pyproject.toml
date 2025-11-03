@@ -17,7 +17,7 @@ joblib = "^1.4.2"
 xlsxwriter = "^3.2.0"
 xgboost = "^2.1.1"
 scikit-learn = "^1.5.2"
-lightgbm = "^4.5.0"
+lightgbm = "^4.6.0"
 
 
 [build-system]
